@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app >
+
+  
+  <servlet>
+    <servlet-name>marriage</servlet-name>
+    <servlet-class>com.nt.servlet.MarryApp</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>  
+  
+  <servlet-mapping>
+      <servlet-name>marriage</servlet-name>
+      <url-pattern>/marryurl</url-pattern>
+  </servlet-mapping>
+  
+ <!--  <servlet>
+    <servlet-name>marriage</servlet-name>
+    <servlet-class>com.nt.servlet.MarryApp</servlet-class>
+  </servlet> 
+  
+   <servlet-mapping>
+      <servlet-name>welcome</servlet-name>
+      <url-pattern>/welcomeurl</url-pattern>
+  </servlet-mapping> -->
+  
+  <welcome-file-list>
+       <welcome-file>input.html</welcome-file>
+   <!--    
+     <welcome-file>welcomeurl</welcome-file>
+      -->
+     
+  </welcome-file-list>
+</web-app>
